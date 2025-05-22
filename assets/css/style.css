@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.clear{
+    clear: both;
+}
+.layout{
+    width: 100%;
+    background-color: #000033;
+    border-radius: 5px;
+    padding-inline: 15px;
+}
+.row{
+    margin-inline: -7.5px;
+}
+.col-12{
+    width: 100%;
+}
+.col-4{
+    width: 33.33333333333333%;
+}
+.col-2{
+    width: 16.66666666666667%;
+}
+.bloge{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 5px 0px;
+}
+/* -------------------- */
+.bloge .nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition-duration: 0.3s;
+    font-size: 20px;
+}
+.bloge .nav-link:hover{
+    color: #1877F2;
+}
+input{
+    padding: 4px 8px;
+    border-radius: 3px;
+    outline-color: #1877F2;
+    width: 270px;
+}
+div[class*="col-"] {
+    padding-inline: 7.5px;
+    padding-bottom: 15px;
+    float: left;
+}
+
+.facebook,.Yahoo,.dropbox,.wechart,.reddit,.line,.hakernews,.soundcloud,.slideshare,.youtube,.whatsapp{
+    padding: 40px 15px;
+    position: relative;
+    border-radius: 4px;
+}
+.facebook{
+    background-color: #1877F2;
+}
+.Yahoo{
+    background-color: #410093;
+}
+.dropbox{
+    background-color: #0061FF;
+}
+.wechart{
+    background-color: #09B83E;
+}
+.layout .link-name{
+    text-decoration: none;
+    position: absolute;
+    bottom: 4px;
+    color: white;
+    transition-duration: 0.5s;
+}
+.layout .link-name:hover{
+    color: #062452;   
+}
+.reddit{
+    background-color: #FF5700;
+}
+.line{
+    background-color: #00C300;
+}
+.hakernews{
+    background-color: #660000;
+}
+.soundcloud{
+    background-color: #FF5700;
+}
+.slideshare{
+    background-color: #660066;
+}
+.youtube{
+    background-color: #CD201F;
+}
+.whatsapp{
+    background-color: #3C7601;
+}
